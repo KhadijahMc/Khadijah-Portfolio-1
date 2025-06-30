@@ -1,0 +1,38 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+nav {
+  background-color: #4a90e2;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+section, ul {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+.print-link {
+  margin-top: 20px;
+  text-align: center;
+}

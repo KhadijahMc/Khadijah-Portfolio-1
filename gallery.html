@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery - Khadijah McDole Gunn</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Welcome</a>
+    <a href="coursework.html">Coursework</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <section>
+    <h2>Photo Gallery</h2>
+    <p style="text-align: center;">Here are a few photos that show who I am and what I enjoy!</p>
+
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Family Time">
+      <img src="images/photo2.jpg" alt="Cooking My Favorite Dish">
+      <img src="images/photo3.jpg" alt="Study Setup">
+      <img src="images/photo4.jpg" alt="Campus Life">
+    </div>
+  </section>
+</body>
+</html>
